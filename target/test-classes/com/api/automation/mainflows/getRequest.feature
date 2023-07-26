@@ -8,7 +8,8 @@ Feature: To test test the get end point of the Application
 #		AND the response format should be in JSON
 		
 	Scenario: To test the end point with XML data
-		Given url 'http://localhost:9897/normal/webapi/all'
+		# Given url 'http://localhost:9897/normal/webapi/all'
+		Given url 'https://catfact.ninja/fact'
 		When method get
 		Then status 200
 		

@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-07-25 06:00:58 pm</div>
+    <div>2023-07-26 10:22:21 am</div>
   </div>
 </div>
 
@@ -81,21 +81,28 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>318</span>
+              <span>ms:</span>&nbsp;<span>1353</span>
             </div>
           </div>
           
           <div><div>
   
 
-  
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given url &#39;http://localhost:9897/normal/webapi/all&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref passed">11</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;http://localhost:9897/normal/webapi/all&#39;</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://catfact.ninja/fact&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -107,22 +114,32 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.11">18:00:57.806 &lt;&lt; lock released, cached callSingle: classpath:com//api//automation//mainflows//load_properties.feature
-18:00:57.840 result :-&gt;  {
+  <div class="preformatted" data-parent="0.12">10:22:19.859 &lt;&lt; lock released, cached callSingle: classpath:com//api//automation//mainflows//load_properties.feature
+10:22:19.863 result :-&gt;  {
+  &quot;readProps&quot;: &quot;com.intuit.karate.graal.JsValue$SharableMembersAndInstantiable@2c333c55&quot;,
+  &quot;CIN&quot;: &quot;DIR&quot;,
+  &quot;props&quot;: {
+    &quot;ENDPONT_DETAILS_EXCEL&quot;: &quot;&quot;,
+    &quot;CIN&quot;: &quot;DIR&quot;,
+    &quot;karateProjDir&quot;: &quot;.&quot;,
+    &quot;ENV&quot;: &quot;QV&quot;,
+    &quot;SECRET&quot;: &quot;&quot;,
+    &quot;MAVEN_EXECUTABLE_PATH&quot;: &quot;&quot;
+  }
 }
  
-18:00:57.843 end of karate-config.js file :-&gt; 
+10:22:19.866 end of karate-config.js file :-&gt; 
 </div>   
 
   <div>
         
     <div class="step-row">
-      <div class="step-container" id="0.11.0.call">
+      <div class="step-container" id="0.12.0.call">
         <div class="step-ref passed">&gt;&gt;</div>
         <div class="step-indent"></div>
         <div class="step-cell passed">com.api.automation.mainflows.load_properties</div>
       </div>
-      <div class="time-cell passed">3</div>
+      <div class="time-cell passed">71</div>
     </div>
     <div>
       <div><div>
@@ -130,12 +147,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="step-row" data-parent="0.11.0.call">
-    <div class="step-container" id="0.11.0.call.0.10">
-      <div class="step-ref passed">10</div>
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.11">
+      <div class="step-ref passed">11</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>print &#39;load_properties.feature Scenario:-&#39;</span>
+        <span>*</span>&nbsp;<span>print &#39;load_properties.feature Scenario:-&gt;&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">3</div>
@@ -147,10 +164,207 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.11.0.call.0.10">18:00:57.766 start of karate-config.js file :-&gt; 
-18:00:57.771 &gt;&gt; lock acquired, begin callSingle: classpath:com//api//automation//mainflows//load_properties.feature
-18:00:57.800 [print] load_properties.feature Scenario:- 
+  <div class="preformatted" data-parent="0.12.0.call.0.11">10:22:19.752 start of karate-config.js file :-&gt; 
+10:22:19.759 &gt;&gt; lock acquired, begin callSingle: classpath:com//api//automation//mainflows//load_properties.feature
+10:22:19.786 [print] load_properties.feature Scenario:-&gt; 
 </div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def readProps =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.12.0.call.0.13">function(path) {
+  var stream = karate.readAsStream(path);
+  var props = new java.util.Properties();
+  props.load(stream);
+  return props;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># function call</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.23">
+      <div class="step-ref passed">23</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def props = readProps(&#39;classpath:karate.properties&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.24">
+      <div class="step-ref passed">24</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;load_properties.feature :-&gt; props :-&gt; &#39;,props</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12.0.call.0.24">10:22:19.830 [print] load_properties.feature :-&gt; props :-&gt;  {
+  &quot;ENDPONT_DETAILS_EXCEL&quot;: &quot;&quot;,
+  &quot;CIN&quot;: &quot;DIR&quot;,
+  &quot;karateProjDir&quot;: &quot;.&quot;,
+  &quot;ENV&quot;: &quot;QV&quot;,
+  &quot;SECRET&quot;: &quot;&quot;,
+  &quot;MAVEN_EXECUTABLE_PATH&quot;: &quot;&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># set variables from property file to memory</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.27">
+      <div class="step-ref passed">27</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def CIN = props[&#39;CIN&#39;];</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.28">
+      <div class="step-ref passed">28</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;load_properties.feature :-&gt; CIN :-&gt; &#39;,CIN</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12.0.call.0.28">10:22:19.841 [print] load_properties.feature :-&gt; CIN :-&gt;  DIR 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.30">
+      <div class="step-ref passed">30</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match CIN == &#39;DIR&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
@@ -167,14 +381,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref passed">12</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">317</div>
+    <div class="time-cell passed">1352</div>
   </div>
 
    
@@ -183,28 +397,32 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">18:00:58.132 request:
-1 &gt; GET http://localhost:9897/normal/webapi/all
-1 &gt; Host: localhost:9897
+  <div class="preformatted" data-parent="0.13">10:22:20.094 request:
+1 &gt; GET https://catfact.ninja/fact
+1 &gt; Host: catfact.ninja
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-18:00:58.169 response time in milliseconds: 33
+10:22:21.217 response time in milliseconds: 865
 1 &lt; 200
-1 &lt; X-Content-Type-Options: nosniff
-1 &lt; X-XSS-Protection: 1; mode=block
-1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-1 &lt; Pragma: no-cache
-1 &lt; Expires: 0
-1 &lt; X-Frame-Options: DENY
+1 &lt; Server: nginx
+1 &lt; Date: Wed, 26 Jul 2023 04:52:20 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Tue, 25 Jul 2023 12:30:58 GMT
-1 &lt; Keep-Alive: timeout=60
 1 &lt; Connection: keep-alive
-[{&quot;jobId&quot;:1,&quot;jobTitle&quot;:&quot;Software Engg&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]}]
+1 &lt; Vary: Accept-Encoding
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-Ratelimit-Limit: 100
+1 &lt; X-Ratelimit-Remaining: 99
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Set-Cookie: XSRF-TOKEN=eyJpdiI6IkdvNXdxQ2hHck1WTThKdm4yK3V3Tmc9PSIsInZhbHVlIjoiM0xBZzUzSWVxRmFCMFFHOEpPaE9ET2RSQW9lRmQyUkNHeFAxOEVPRUI1YWZaczVHQmVBd2JVL0QrR3ovSXRSSHV4dGZaeGVUd09lSU8vNU11a0JYTnhFRGUvczQrOWsvcmVlTkpMVjQxUUdUMGtKYng0ak9tUGViK3BoL09vd3EiLCJtYWMiOiIyYzU0NDNiODdkOTc0YWUyNDE4OGMzYTY4Y2M5NDE3NGZiMzFhZmMyNjk5ZmNiNDcxOWJlY2NiNTA5NzU2MGU2IiwidGFnIjoiIn0%3D; expires=Wed, 26-Jul-2023 06:52:20 GMT; path=/; samesite=lax
+1 &lt; Set-Cookie: catfacts_session=eyJpdiI6Im02b3hOUUxoUkM5VmVPUDhPN2FFWXc9PSIsInZhbHVlIjoiYzNZTHc0dEZLUlpVaFBFdnpUNDRTbnVWaXlkSkRmVUwzNFNjMUZPUEExZXVpR1VyYlNvSmxpTGExY3pia0xpKzIzM1RMdHFDb0tFZHhNUlB0WjkrL3k1VGVvSTdoQ3d6czBtR2RtUE5JdDMyZlIyN28wUVgzZ2tnSlVubjNhOHUiLCJtYWMiOiI3OTFkZWZiZDUyMmZiZDdmODAzZTlhNzI2NjBlMTdjODRjM2JlNDQ3ZmY2OTc1NWNjZGZiZWUwOGJjMjcxNGNjIiwidGFnIjoiIn0%3D; expires=Wed, 26-Jul-2023 06:52:20 GMT; path=/; httponly; samesite=lax
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; X-Content-Type-Options: nosniff
+{&quot;fact&quot;:&quot;Cat&#39;s urine glows under a black light.&quot;,&quot;length&quot;:38}
 
 </div>   
 
@@ -218,8 +436,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
